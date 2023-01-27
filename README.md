@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# Getting Started with Hacker News &middot; [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Installation
+
+In the project directory run to install all project dependencies:
+
+### `npm install`
+
+In order to configure husky to run pre-commit hook, run in the project directory:
+
+### `npm run configure-husky`
+
+---
 
 ## Available Scripts
 
@@ -27,7 +37,17 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `npm run lint`
+
+Run eslint analysis and display the project problems.
+
+### `npm run lint:fix`
+
+Run eslint analysis and trying to fix the project problems.
+
+### `npm run format`
+
+Format the project using the prettier.
 
 ### `npm run eject`
 

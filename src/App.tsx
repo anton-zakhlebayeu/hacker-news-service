@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { defaultTheme } from './themes/default.theme'
+import { ThemeProvider } from '@mui/material'
+import { Main } from './core/components/shared/Main/Main.styled'
+import Navbar from './core/components/shared/Navbar/Navbar'
+import { Header } from './core/components/shared/Header/Header.styled'
+import { Body } from './core/components/shared/Body/Body.styled'
+import StoryContainer from './core/components/containers/StoryContainer/StoryContainer'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <ThemeProvider theme={defaultTheme}>
+        <Main>
+          <Header>
+            <Navbar />
+          </Header>
+          <Body>
+            <StoryContainer />
+          </Body>
+        </Main>
+      </ThemeProvider>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
