@@ -1,5 +1,17 @@
 # Getting Started with Hacker News &middot; [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react)
 
+## Task
+
+- [x] You’ll design a new frontend for the HackerNews website, showing only the latest (new) posts: https://news.ycombinator.com/
+- [x] You will use the public HackerNews API to access posts: https://github.com/HackerNews/API
+- [x] Clicking on a post will redirect the user to the full article, as it happens in the existing HackerNews website.
+- [x] Use the following colors: white, black, #ff6600, #f6f6ef.
+- [x] You are free to use any CSS or UI framework of your choice.
+- [x] Focus on the desktop view, with screens between 1200px and full hd.
+- [x] (bonus points) support mobile and tablets with a responsive design
+- [x] (bonus points) add infinite scroll
+- [x] (bonus points) write unit tests for each component
+
 ## Installation
 
 In the project directory run to install all project dependencies:
